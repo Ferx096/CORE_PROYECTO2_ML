@@ -1,4 +1,4 @@
-# Proyecto de Análisis y Modelado de Datos: Calidad de Vino
+# Proyecto de Análisis y Modelado de Datos
 
 ## Descripción del Proyecto
 
