@@ -10,7 +10,7 @@ Este repositorio contiene el dataset elegido, el análisis EDA inicial, y la des
 
 1. **Precio de casas**: Contiene características de distintos domicilios.
 2. **Precio de autos**: Contiene datos de características de autos y sus precios.
-3. **Calidad de vino**: Datos de características químicas del vino y su puntuación de calidad.
+3. **Lesiones**: Datos de 74 atletas, donde algunos presentan lesiones.
 
 ## Resumen del Análisis EDA
 
@@ -22,18 +22,18 @@ Este repositorio contiene el dataset elegido, el análisis EDA inicial, y la des
 - No se observa una correlación fuerte en la mayoría de las variables. Sin embargo, se decidió aplicar un modelo de regresión.
 - **Modelo sugerido**: Árbol de regresión. Se aplicó **LazyPredict** para elegir el mejor modelo inicial y se acompañó de una búsqueda de hiperparámetros y optimización del modelo.
 
-### 3. Calidad de Vino
+### 3. Prediccion de lesiones
 - No se identifican correlaciones claras entre las variables.
-- **Modelo sugerido**: Clasificación. Se aplicó una regresión logística para predecir la puntuación de calidad del vino en función de sus características químicas. Se observó una distribución desproporcionada en el target, principalmente en las clases 5 y 6.
+- **Modelo sugerido**: Clasificación. Se apli modelo KGB para predecir lesiones en funcion a sus entrenamientos.
 - El modelo fue optimizado utilizando **LazyPredict** para la selección inicial de modelos, seguido de una búsqueda de hiperparámetros.
 
 ## Problema Seleccionado
 
-Se escogió el dataset de **calidad de vino**. Dado que no hay correlación clara entre las características, se decidió aplicar un **modelo de clasificación** para predecir la calidad del vino. El proceso incluyó:
+Se escogió el dataset de **Prediccion de lesiones**. Dado que no hay correlación clara entre las características, se decidió aplicar un **modelo de clasificación** para predecir lesiones. El proceso incluyó:
 
 1. Selección inicial de modelos con **LazyPredict**.
 2. Optimización mediante búsqueda de hiperparámetros.
-3. Implementación final del modelo utilizando **Regresión Logística**.
+3. Implementación final del modelo utilizando **LGB**.
 
 ## Instrucciones para Ejecutar
 
